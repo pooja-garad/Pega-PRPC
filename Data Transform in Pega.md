@@ -35,15 +35,6 @@ Data Transform is a feature in Pega that allows you to manipulate and process da
    - Parameters allow you to pass data into the Data Transform, making it reusable with different inputs.
    - Example: You might pass a customer ID as a parameter to retrieve specific customer data.
 
-## Data Transform Actions
-
-### Common Actions in Data Transform
-
-1. **Set Properties**: Directly set a value to a target property.
-2. **Remove**: Clears or deletes a property or page, which is useful to free up memory or reset data.
-3. **Append to**: Adds an element to a list or array.
-4. **Map to**: Used for mapping lists, particularly in situations where the data source has a nested structure.
-5. **Call another Data Transform**: Useful for modularizing transformations by calling other predefined Data Transforms.
 
 ## Key Scenarios for Using Data Transforms
 
@@ -62,6 +53,17 @@ Data Transform is a feature in Pega that allows you to manipulate and process da
 ### 4. **Integration and Service Data Handling**
    - When retrieving data from external systems, Data Transform can help structure the data to fit within the Pega model.
    - Example: Mapping data from an external REST service into the Pega property structure.
+
+## Summary Table
+
+| Rule Type          | How to Call a Data Transform                                |
+|--------------------|-------------------------------------------------------------|
+| **Activity**       | Use `Apply-DataTransform` method.                           |
+| **When Rule**      | Indirectly call via an Activity (not recommended).          |
+| **Data Transform** | Use **Call Data Transform** action within another Data Transform. |
+| **Flow Action**    | Set as **Pre-Processing** or **Post-Processing** option.    |
+| **Section**        | Use Event Action to run an Activity that calls the Data Transform. |
+
 
 ## Best Practices for Data Transform in Pega
 
