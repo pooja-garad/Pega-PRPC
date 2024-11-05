@@ -41,5 +41,5 @@ A well-configured Service Package can help streamline external integrations with
 
 ---
 
-![Service Package Configuration](images/service package ss.png)
+![Service Package Configuration](images/service%20package%20ss.png)
 
