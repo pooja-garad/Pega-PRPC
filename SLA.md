@@ -7,6 +7,8 @@
 - They help automate and enforce processes to ensure consistent performance and service levels.
 
 ---
+![Service Package Configuration](images/slaimg.png)
+---
 
 ## Key SLA Concepts in Pega
 
