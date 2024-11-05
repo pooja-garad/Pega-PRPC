@@ -3,6 +3,8 @@
 A **Service Package** in Pega is a collection of service rules used to expose Pega applications for external systems via various protocols like REST, SOAP, or file-based services. Here’s a guide on setting up a Service Package in Pega.
 
 ---
+![Service Package Configuration](images/service%20package%20ss.png)
+---
 
 ### 1. Context Tab  
 - **Processing Mode**: Choose between **Stateless** (no data sharing between service calls) or **Stateful** (data sharing needed across calls).
@@ -41,5 +43,4 @@ A well-configured Service Package can help streamline external integrations with
 
 ---
 
-![Service Package Configuration](images/service%20package%20ss.png)
 
